@@ -6,7 +6,7 @@ public class Parcel : DeliveryItem
     private const int StartingPrice = 50;
     private const int PriceForKilogram = 25;
 
-    public Parcel(string trackingNumber, int weight, string dimensions) : base(trackingNumber, weight)
+    public Parcel(string trackingNumber, double weight, string dimensions) : base(trackingNumber, weight)
     {
         Dimensions = dimensions;
     }

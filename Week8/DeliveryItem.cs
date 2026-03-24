@@ -3,9 +3,9 @@
 public abstract class DeliveryItem
 {
     public string TrackingNumber;
-    public int Weight;// weight in kilograms
+    public double Weight;// weight in kilograms
 
-    public DeliveryItem(string trackingNumber, int weight)
+    public DeliveryItem(string trackingNumber, double weight)
     {
         TrackingNumber = trackingNumber;
         Weight = weight;

@@ -7,7 +7,7 @@ internal class Program
 {
     public static void Main(string[] args)
     {
-        Letter letter1 = new Letter("12345667",1);
+        Letter letter1 = new Letter("12345667",1.5);
         Letter letter2 = new Letter("94534304",3);
         Parcel parcel = new Parcel("23408354", 15, "10*10*10");
         
